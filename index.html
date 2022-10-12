@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index page</title>
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>HTML and CSS cheatsheet</h1>
+        <h2>For worries no need, when you got this cheatsheet!</h2>
+    </div>
+
+    <div class="html">
+        <h2>HTML</h2>
+        <h3>HTML setup</h3>
+        <p>How to setup your HTML web page</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&lt;!DOCTYPE html&gt;</span>
+                    </td>
+                    <td>HTML doctype</td>
+                    <td>Defines the doctype of the document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;html&gt;</span>
+                    </td>
+                    <td>HTML tag</td>
+                    <td>
+                        Represents the root of an HTML document and is the containter for
+                        all other HTML elements (except for the DOCTYPE-tag).
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;head&gt;</span>
+                    </td>
+                    <td>Head element</td>
+                    <td>
+                        The head element is a container for metadata (data about data) and
+                        is placed between the html-tag and the body-tag.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;title&gt;</span>
+                    </td>
+                    <td>Document title</td>
+                    <td>
+                        Defines the title of the document. This must be text-only, and is
+                        shown in the browser's title bar or in the page's tab. Required in
+                        HTML documents.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;body&gt;</span>
+                    </td>
+                    <td>Document's body</td>
+                    <td>
+                        Defines the document's body. Contains all the content of an HTML
+                        document, such as headings, paragraphs, images, hyperlinks,
+                        tables, lists, etc.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="css">
+        <h2>CSS</h2>
+        <h3>CSS: margins and paddings</h3>
+        <p>When and how to use them</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        Margin of an HTML element</td>
+                    <td>
+                        The margin property can be used to create space around elements,
+                        outside of any defined borders.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">margin: auto;</span>
+                    </td>
+                    <td rowspan="4">Margin property</td>
+                    <td>Margin is calculated by the browser.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">margin: 30px;</span>
+                    </td>
+                    <td>Specifies a margin in px (can also be set in cm, pt, etc.).</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">margin: 40%;</span>
+                    </td>
+                    <td>Specifies a margin in % of the width of containing element.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">margin: inherit;</span>
+                    </td>
+                    <td>
+                        Specifies that the margin should be inherited from the parent
+                        element.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        The padding of an element.</td>
+                    <td>
+                        The padding is used to create space around an elemnt's content,
+                        inside of any defined borders.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">padding: 30px;</span>
+                    </td>
+                    <td rowspan="3">Padding property</td>
+                    <td>Specifies a padding in px, pt, cm, etc.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">padding: 40%;</span>
+                    </td>
+                    <td>
+                        Specifies a padding in % of the width of the containing element.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">padding: inherit;</span>
+                    </td>
+                    <td>
+                        Specifies that the padding should be inherited from the parent
+                        element.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Author: Maarten Rietveld</p>
+        <p>Check out: <a href="https://w3schools.com" target="_blank">W3 schools</a> for more information on this topic!</p>
+    </footer>
+
+</body>
+
+</html>
